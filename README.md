@@ -47,3 +47,9 @@ Optional: build the project and deploy (ie make it available as a static project
 on how to start the project locally.
 
 Any questions please contact us via email (jobs AT sheypoor.com) :)
+
+
+### Manual testing guide [by Vahid Taheri]:
+- Clone the repo
+- Install required packages using npm. (run `npm install` or `npm i` in the root directory of project )
+- Start development version of project. (run `npm start` in the root directory of project) or you can build the production version. (run `npm run build` in the root directory of project)
