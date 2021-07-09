@@ -1,12 +1,14 @@
 import React from 'react';
 import ReactDOM from 'react-dom';
+import SignUp from './components/SignUp';
 
+import './style.scss';
 
 const App = () => {
     return (
-        <>
-            <h1>This is the base of project</h1>
-        </>
+        <React.Suspense fallback="Error" >
+            <SignUp />
+        </React.Suspense>
     );
 };
 
